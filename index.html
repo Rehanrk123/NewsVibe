@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsVibe latest trending news of different categories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <nav class="container">
+        <div class="logo">
+
+        </div>
+        <div class="heading">
+            <ul>
+                <li class="hover-link" id="ipl">IPL</li>
+                <li class="hover-link" id="finance">Finance</li>
+                <li class="hover-link" id="politics">Politics</li>
+                <li class="hover-link" id="technology">Technology</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="eg.Science" id="search-text">
+            <button id="search-button">Search</button>
+        </div>
+    </nav>
+<main>
+    <div class="card-container container" id="card-container">
+        
+    </div>
+<template id="template-news-card">
+    <div class="card">
+        <div class="card-header">
+            <img src="images/logo.png" alt="" id="news-img">
+        </div>
+        <div class="card-content">
+            <h3 class="news-title" id="news-title">This is the Title</h3>
+            <h6 class="news-source" id="news-source">End Gadget 25/08/2024</h6>
+            <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum fuga molestiae mollitia a, nam, ducimus obcaecati tempore natus enim doloremque sint necessitatibus dolorem quod, et quo. Fuga, ipsam sunt!</p>
+        </div>
+    </div>
+</template>
+</main>
+<div class="footer">
+    Created by Rehan Khan
+</div>
+<script src="script.js"></script>
+</body>
+</html>

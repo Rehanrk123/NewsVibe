@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.input{
+    font-family: "Roboto",sans-serif;
+}
+.button{
+    font-family: "Roboto",sans-serif;
+}
+nav{
+    color: white;
+    height: 80px;
+    width: 100vw;
+    
+    
+     /* background-color: #c83f3f; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+body{
+    background-color: #091426;
+    font-family:"Poppins",sans-serif;
+}
+p{
+    font-family: "Roboto",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+
+}
+.heading ul{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    outline: none;
+    width: 200px;
+    height: 32px;
+    padding-inline:10px ;
+    border: none;
+    border-radius: 4px;
+}
+.search button{
+    background-color: #ACC8E5;
+    color: #091426;
+    height: 32px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.search button:hover{
+    background-color: #8ab7e8;
+}
+/* --------------------------------- */
+main{
+    padding-block: 20px;
+    margin-top: 50px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content:start;
+    row-gap: 20px;
+    gap: 80px;
+    align-items: start;
+}
+.card{
+    width: 360px;
+    min-height: 400px;
+    background-color: #10213b;
+    box-shadow: 0 0 4px #d4ecff; 
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 2px 2px 8px #d4ecff;
+    transform: translateY(-2px);
+}
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 12px;
+}
+.news-source{
+    margin-block: 12px;
+}
+.footer {
+    margin-top: 100px;
+    position: fixed; /* Ensures the footer stays at the bottom */
+    bottom: 0;
+    width: 100%;
+    background-color: #000; /* Black background for contrast */
+    color: rgb(247, 204, 204); /* White text */
+    text-align: center;
+    padding: 10px 0;
+}
